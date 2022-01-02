@@ -1,4 +1,4 @@
-**Parts used for this "water gun" **
+**Parts used for this "water gun"**
 
 -SEAFLO water pump 12v 
 -silicone hose 5 meter 6mm ID, 8mm OD 
