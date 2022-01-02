@@ -9,7 +9,7 @@ import numpy as np
 import sys
 import re
 
-pi = pigpio.pi()
+pi = pigpio.pi() #test
 GPIO.setmode(GPIO.BCM)
 trimhorizontal=7
 trimvertical=10
