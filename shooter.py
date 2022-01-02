@@ -58,13 +58,10 @@ def turntotarget(targetx,targety, width ,height):
 
 	turntoangle(HorizontalServo,targetanglehorizontal+trimhorizontal)
 	turntoangle(VerticalServo,targetanglevertical+trimvertical)
-	#print(targetanglehorizontal)
-	#print(targetanglevertical)
 
 
 def main():
 	detectionengine = DetectionEngine("./mobilenet_ssd_v2_coco_quant_postprocess_edgetpu.tflite")
-	#detectionengine = DetectionEngine("./juliandetector.tflite")
 	detectionlabels = ReadLabelFile("./coco_labels.txt")
 	vs = cv2.VideoCapture(0)
 	
